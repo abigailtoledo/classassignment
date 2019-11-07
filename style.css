@@ -1,0 +1,102 @@
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: green;
+    margin: 0 auto;
+    
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+
+        
+tbody tr:nth-child(even) {
+    background: #ccc;
+}
+
+thead {
+    text-align: center;
+    background-color: #274370
+}
+    
+td {
+    border:1px solid #000; 
+    padding: 10px;       
+    vertical-align: top;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+
+}
+
+#product{
+    color: white;
+    font-size: 12px;  
+}
+
+.button{
+    background-color: #274370;
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.img {
+    float: left;
+}
+
+.colour{
+    background-color: aqua
+}
+
+.container {
+    align-content: center;
+    width: 960px;
+    margin: 0 auto;    
+}
+
+.description {
+    width: 630px;
+    margin: 0 auto;
+    float: right;   
+}
